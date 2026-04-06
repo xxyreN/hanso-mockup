@@ -380,7 +380,13 @@ body { padding-top: 28px; }
   letter-spacing: 0.05em;
 }
 .menu-item .item-price { color: var(--text); }
-@media (max-width: 900px) { .menu-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 900px) {
+  .menu-grid { grid-template-columns: repeat(3, 1fr); }
+  .menu-item { padding: var(--space-2) var(--space-1); }
+  .menu-item .item-name { font-size: 14px; }
+  .menu-item .item-meta { font-size: 9px; }
+  .menu-item .item-number { font-size: 8px; }
+}
 
 /* ---------- NO LAPTOPS manifesto ---------- */
 .manifesto {
@@ -451,9 +457,11 @@ body { padding-top: 28px; }
 .shop-item .name { font-family: var(--font-display); font-size: 22px; font-weight: 400; margin-bottom: 4px; }
 .shop-item .price { font-family: var(--font-mono); font-size: 13px; color: var(--text); }
 @media (max-width: 768px) {
-  .shop-grid { grid-template-columns: 1fr 1fr; justify-items: center; background: var(--bg); gap: 0; }
-  .shop-grid .shop-item { border-bottom: 1px solid var(--border); }
-  .shop-grid .shop-item:last-child:nth-child(odd) { grid-column: 1 / -1; max-width: 50%; }
+  .shop-grid { grid-template-columns: repeat(3, 1fr); background: var(--bg); gap: 1px; }
+  .shop-grid .shop-item { padding: var(--space-2) var(--space-1); }
+  .shop-item .name { font-size: 16px; }
+  .shop-item .price { font-size: 11px; }
+  .shop-item .label { font-size: 8px; }
 }
 
 /* ---------- Footer ---------- */
@@ -654,8 +662,11 @@ body { padding-top: 28px; }
 .tienda-item .price { font-family: var(--font-mono); font-size: 16px; color: var(--text); }
 .tienda-item .add { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); }
 @media (max-width: 768px) {
-  .tienda-grid { grid-template-columns: 1fr 1fr; justify-items: center; }
-  .tienda-grid .tienda-item:last-child:nth-child(odd) { grid-column: 1 / -1; max-width: 50%; }
+  .tienda-grid { grid-template-columns: repeat(3, 1fr); }
+  .tienda-item { padding: var(--space-1); }
+  .tienda-item .name { font-size: 14px; }
+  .tienda-item .desc { font-size: 10px; }
+  .tienda-item .price { font-size: 12px; }
 }
 
 /* ---------- Filosofía page ---------- */
