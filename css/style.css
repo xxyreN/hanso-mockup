@@ -522,7 +522,7 @@ body { padding-top: 28px; }
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: var(--space-5);
+  gap: var(--space-4);
 }
 .menu-section-label {
   max-width: 1100px;
@@ -544,58 +544,60 @@ body { padding-top: 28px; }
   vertical-align: middle;
   margin: 0 var(--space-2);
 }
-.menu-category { border-top: 1px solid var(--border); padding-top: var(--space-3); }
+.menu-category {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: var(--space-3);
+  margin-bottom: var(--space-3);
+}
 .menu-category h3 {
   font-family: var(--font-display);
   font-size: 20px;
   font-weight: 400;
   margin-bottom: var(--space-3);
-  display: flex;
-  align-items: baseline;
-  gap: var(--space-2);
-}
-.menu-category h3::before {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: var(--border);
-  order: 2;
+  padding-bottom: var(--space-2);
+  border-bottom: 2px solid var(--accent-warm);
+  color: var(--accent-warm);
 }
 .menu-row {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   gap: var(--space-2);
-  padding: var(--space-2) 0;
-  border-bottom: 1px dashed var(--border);
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
 }
 .menu-row:last-child { border-bottom: none; }
 .menu-row .dish {
   font-family: var(--font-body);
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 500;
   color: var(--text);
 }
 .menu-row .dish-desc {
   display: block;
-  font-family: var(--font-mono);
-  font-size: 10px;
+  font-family: var(--font-body);
+  font-size: 11px;
   color: var(--text-muted);
-  margin-top: 2px;
-  letter-spacing: 0.05em;
+  margin-top: 3px;
   line-height: 1.5;
 }
 .menu-row .price {
   font-family: var(--font-mono);
-  font-size: 13px;
-  color: var(--text);
+  font-size: 14px;
+  color: var(--accent-warm);
+  font-weight: 500;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 @media (max-width: 900px) {
   .menu-full-grid { grid-template-columns: repeat(3, 1fr); gap: var(--space-2); }
-  .menu-category h3 { font-size: 14px; }
-  .menu-row .dish { font-size: 11px; }
-  .menu-row .price { font-size: 10px; }
-  .menu-row { padding: var(--space-1) 0; }
+  .menu-category { padding: var(--space-2); }
+  .menu-category h3 { font-size: 16px; }
+  .menu-row .dish { font-size: 12px; }
+  .menu-row .price { font-size: 11px; }
+  .menu-row { padding: 6px 0; }
 }
 
 /* ---------- Locales page ---------- */
