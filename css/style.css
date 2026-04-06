@@ -690,6 +690,7 @@ body { padding-top: 28px; }
 .filosofia-hero h1 em { font-style: italic; color: var(--accent-warm); }
 
 .story { padding: var(--space-7) var(--space-3); border-bottom: 1px solid var(--border); }
+.story-image { max-width: 900px; margin: 0 auto; }
 .story-grid {
   max-width: 900px;
   margin: 0 auto;
