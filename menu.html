@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es" class="lang-es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu · HanSo Café</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;1,400&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="concept-banner">
+  <strong>Concepto</strong><span class="sep">·</span><span>Diseño no oficial</span><span class="sep">·</span><span class="soft">Esto es un concepto de diseño, no la web real de HanSo</span>
+</div>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">
+    <img src="logo.svg" alt="HanSo Café">
+  </a>
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="menu.html" data-es>Carta</a><a href="menu.html" data-en>Menu</a></li>
+      <li><a href="locales.html" data-es>Locales</a><a href="locales.html" data-en>Locations</a></li>
+      <li><a href="tienda.html" data-es>Tienda</a><a href="tienda.html" data-en>Shop</a></li>
+      <li><a href="filosofia.html" data-es>Filosofía</a><a href="filosofia.html" data-en>Philosophy</a></li>
+    </ul>
+    <div class="lang-toggle">
+      <button data-lang="en">EN</button>
+      <span class="sep">·</span>
+      <button data-lang="es">ES</button>
+    </div>
+  </div>
+</nav>
+
+<section class="menu-page-hero">
+  <span class="mono" data-es>All Day Brunch</span>
+  <span class="mono" data-en>All Day Brunch</span>
+  <h1 data-es>Carta</h1>
+  <h1 data-en>Menu</h1>
+  <p class="sub" data-es>Alérgenos numerados: 1 gluten · 2 crustáceos · 3 huevo · 4 pescado · 5 cacahuete · 6 soja · 7 lácteos · 8 frutos secos · 9 apio · 10 mostaza · 11 sésamo · 12 moluscos · 13 altramuces · 14 sulfitos</p>
+  <p class="sub" data-en>Allergens: 1 gluten · 2 crustaceans · 3 egg · 4 fish · 5 peanut · 6 soy · 7 dairy · 8 nuts · 9 celery · 10 mustard · 11 sesame · 12 mollusc · 13 lupins · 14 sulphite</p>
+</section>
+
+<section class="menu-full">
+
+  <!-- DRINKS -->
+  <div class="menu-section-label" data-es>Café y bebidas</div>
+  <div class="menu-section-label" data-en>Coffee & drinks</div>
+  <div class="menu-full-grid">
+
+    <div>
+      <div class="menu-category">
+        <h3 data-es>Espresso</h3>
+        <h3 data-en>Espresso</h3>
+        <div class="menu-row"><div class="dish">Espresso / Doble</div><span class="price">1.80 / 2.50</span></div>
+        <div class="menu-row"><div class="dish">Cortado</div><span class="price">2.00</span></div>
+        <div class="menu-row"><div class="dish">Flat White</div><span class="price">2.80</span></div>
+        <div class="menu-row"><div class="dish">Cappuccino</div><span class="price">2.80</span></div>
+        <div class="menu-row"><div class="dish">Café con leche</div><span class="price">2.50</span></div>
+        <div class="menu-row"><div class="dish">Mocha</div><span class="price">3.50</span></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="menu-category">
+        <h3 data-es>Filtro</h3>
+        <h3 data-en>Filter</h3>
+        <div class="menu-row">
+          <div>
+            <div class="dish">V60 / AeroPress</div>
+            <span class="dish-desc" data-es>Rotativo · pregunta por el origen de hoy</span>
+            <span class="dish-desc" data-en>Rotating · ask for today's origin</span>
+          </div>
+          <span class="price">4.50</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Cold Brew</div>
+            <span class="dish-desc" data-es>24h de infusión en frío</span>
+            <span class="dish-desc" data-en>24h cold steep</span>
+          </div>
+          <span class="price">4.00</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish" data-es>Filtro del fin de semana</div>
+            <div class="dish" data-en>Weekend filter</div>
+            <span class="dish-desc" data-es>Solo sáb/dom · roasters rotativos</span>
+            <span class="dish-desc" data-en>Sat/Sun only · rotating roasters</span>
+          </div>
+          <span class="price">5.00</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="menu-category">
+        <h3 data-es>Otras bebidas</h3>
+        <h3 data-en>Other drinks</h3>
+        <div class="menu-row"><div class="dish">Matcha Latte</div><span class="price">4.50</span></div>
+        <div class="menu-row"><div class="dish">Chai Latte</div><span class="price">4.00</span></div>
+        <div class="menu-row"><div class="dish" data-es>Té (selección)</div><div class="dish" data-en>Tea (selection)</div><span class="price">3.00</span></div>
+        <div class="menu-row"><div class="dish" data-es>Zumo natural</div><div class="dish" data-en>Fresh juice</div><span class="price">4.00</span></div>
+        <div class="menu-row"><div class="dish" data-es>Refresco / Kombucha</div><div class="dish" data-en>Soda / Kombucha</div><span class="price">3.50</span></div>
+        <div class="menu-row"><div class="dish" data-es>Agua con/sin gas</div><div class="dish" data-en>Still / Sparkling water</div><span class="price">2.50</span></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOD -->
+  <div class="menu-section-label" style="margin-top: var(--space-7);">All Day Brunch</div>
+  <div class="menu-full-grid">
+
+    <!-- Column 1 -->
+    <div>
+      <div class="menu-category">
+        <h3>Hokkaido Bread</h3>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Bikini</div>
+            <span class="dish-desc" data-es>Bacon · ham · turkey ham · huevo crujiente · chive [1.3.6.10]</span>
+            <span class="dish-desc" data-en>Bacon · ham · turkey ham · crispy egg · chive [1.3.6.10]</span>
+          </div>
+          <span class="price">13.50</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Chashu & Kimchi Toast</div>
+            <span class="dish-desc" data-es>Chashu beef · ramen egg · rábano · sésamo [1.3.6.7.11]</span>
+            <span class="dish-desc" data-en>Chashu beef · ramen egg · radish · sesame [1.3.6.7.11]</span>
+          </div>
+          <span class="price">16.90</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">French Toast Trufa & Portobello</div>
+            <span class="dish-desc" data-es>Huevo pochado · hollandaise · arúgula [1.3.4.6.7.9.10.11]</span>
+            <span class="dish-desc" data-en>Poached egg · hollandaise · arugula [1.3.4.6.7.9.10.11]</span>
+          </div>
+          <span class="price">13.50</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">French Toast Peanut Butter</div>
+            <span class="dish-desc" data-es>Mermelada chía · banana caramelizada · croccante [1.3.5.7.8]</span>
+            <span class="dish-desc" data-en>Chia jam · caramelized banana · croccante [1.3.5.7.8]</span>
+          </div>
+          <span class="price">11.50</span>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3>Toast</h3>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Avocado & Dukkah</div>
+            <span class="dish-desc" data-es>Pistacho · avellana · chili flake [1.8.11]</span>
+            <span class="dish-desc" data-en>Pistachio · hazelnut · chili flake [1.8.11]</span>
+          </div>
+          <span class="price">7.50</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Avocado Caprese</div>
+            <span class="dish-desc" data-es>Tomate cherry · albahaca · mozzarella [1.7.14]</span>
+            <span class="dish-desc" data-en>Cherry tomato · basil · mozzarella [1.7.14]</span>
+          </div>
+          <span class="price">9.50</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Avocado Arugula</div>
+            <span class="dish-desc" data-es>+ Ibérico ham 3.00 · ramen egg · parmesano [1.3.4.6.7.9.11]</span>
+            <span class="dish-desc" data-en>+ Ibérico ham 3.00 · ramen egg · parmesan [1.3.4.6.7.9.11]</span>
+          </div>
+          <span class="price">9.50</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Portobello & Poached Egg</div>
+            <span class="dish-desc" data-es>Crema de chive · portobello · parmesano [1.3.7]</span>
+            <span class="dish-desc" data-en>Chive cream · portobello · parmesan [1.3.7]</span>
+          </div>
+          <span class="price">11.90</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Column 2 -->
+    <div>
+      <div class="menu-category">
+        <h3>Sandwich</h3>
+        <div class="menu-row">
+          <div>
+            <div class="dish">B.L.A.T.</div>
+            <span class="dish-desc" data-es>Bacon · lechuga · aguacate · tomate · mayo [1.3.6.10]</span>
+            <span class="dish-desc" data-en>Bacon · lettuce · avocado · tomato · mayo [1.3.6.10]</span>
+          </div>
+          <span class="price">11.00</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Spicy Turkey</div>
+            <span class="dish-desc" data-es>Turkey ham · quince · arúgula · edam · mayo [1.3.6.7.10.11]</span>
+            <span class="dish-desc" data-en>Turkey ham · quince · arugula · edam · mayo [1.3.6.7.10.11]</span>
+          </div>
+          <span class="price">10.50</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Kimchi & Bacon</div>
+            <span class="dish-desc" data-es>Mozzarella · kimchi · maple syrup · sésamo [1.3.6.7.10.11]</span>
+            <span class="dish-desc" data-en>Mozzarella · kimchi · maple syrup · sesame [1.3.6.7.10.11]</span>
+          </div>
+          <span class="price">11.00</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Ham & Truffle Cream</div>
+            <span class="dish-desc" data-es>Ricotta · jamón · parmesano · arúgula · trufa [1.3.6.7.10.14]</span>
+            <span class="dish-desc" data-en>Ricotta · ham · parmesan · arugula · truffle [1.3.6.7.10.14]</span>
+          </div>
+          <span class="price">12.50</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Grilled Cheese & Mushroom</div>
+            <span class="dish-desc" data-es>Portobello · mayo · yogur [1.3.6.7.10.14]</span>
+            <span class="dish-desc" data-en>Portobello · mayo · yogurt [1.3.6.7.10.14]</span>
+          </div>
+          <span class="price">13.50</span>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3>Bagel</h3>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Avocado & Cream Cheese</div>
+            <span class="dish-desc" data-es>Chive cream cheese · ricotta · feta · avocado · eneldo [1.3.6.7.11]</span>
+            <span class="dish-desc" data-en>Chive cream cheese · ricotta · feta · avocado · dill [1.3.6.7.11]</span>
+          </div>
+          <span class="price">7.90</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Salmon & Ricotta</div>
+            <span class="dish-desc" data-es>Chive ricotta · salmón · cebolla · arúgula [1.3.4.6.7.8.11]</span>
+            <span class="dish-desc" data-en>Chive ricotta · salmon · onion · arugula [1.3.4.6.7.8.11]</span>
+          </div>
+          <span class="price">11.50</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Bacon Cheese Egg</div>
+            <span class="dish-desc" data-es>Cheddar · bacon · lechuga · huevo · mayo [1.2.6.7.8.10.11]</span>
+            <span class="dish-desc" data-en>Cheddar · bacon · lettuce · egg · mayo [1.2.6.7.8.10.11]</span>
+          </div>
+          <span class="price">10.50</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Avocado Egg Benedict</div>
+            <span class="dish-desc" data-es>+ Bacon/ham/turkey ham 1.50 · + smoked salmon 3.50 [1.3.6.7.8.10.11]</span>
+            <span class="dish-desc" data-en>+ Bacon/ham/turkey ham 1.50 · + smoked salmon 3.50 [1.3.6.7.8.10.11]</span>
+          </div>
+          <span class="price">9.90</span>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3>Çilbir</h3>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Turkish Eggs</div>
+            <span class="dish-desc" data-es>Sourdough · yogur con ajo · huevo pochado · eneldo · cilantro · chive · chili butter [1.3.7]</span>
+            <span class="dish-desc" data-en>Sourdough · garlic yogurt · poached egg · dill · coriander · chive · spicy butter [1.3.7]</span>
+          </div>
+          <span class="price">10.90</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Column 3 -->
+    <div>
+      <div class="menu-category">
+        <h3>Salad</h3>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Strawberry & Poached Egg</div>
+            <span class="dish-desc" data-es>Strawberry bread · feta · cebolla crujiente · honey mustard [1.3.7.10.14]</span>
+            <span class="dish-desc" data-en>Strawberry bread · feta · crispy onion · honey mustard [1.3.7.10.14]</span>
+          </div>
+          <span class="price">10.90</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Apple & Quinoa</div>
+            <span class="dish-desc" data-es>Arúgula · quinoa · apple · cranberry · pumpkin seeds · miso vinagreta [6.8.11]</span>
+            <span class="dish-desc" data-en>Arugula · quinoa · apple · cranberry · pumpkin seeds · miso vinaigrette [6.8.11]</span>
+          </div>
+          <span class="price">11.50</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Smoked Salmon & Soba</div>
+            <span class="dish-desc" data-es>Lechuga · buckwheat noodle · salmón · pepino · rabano · edamame · cilantro · sésamo · ramen egg [1.3.4.6.9.11]</span>
+            <span class="dish-desc" data-en>Lettuce · buckwheat noodle · salmon · cucumber · radish · edamame · coriander · sesame · ramen egg [1.3.4.6.9.11]</span>
+          </div>
+          <span class="price">15.50</span>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3>Bowl</h3>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Yogurt & Granola</div>
+            <span class="dish-desc" data-es>Coconut chia pudding · house granola · fruta · agave syrup [1.7.8]</span>
+            <span class="dish-desc" data-en>Coconut chia pudding · house granola · fruit · agave syrup [1.7.8]</span>
+          </div>
+          <span class="price">6.90</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Oat Porridge</div>
+            <span class="dish-desc" data-es>Oat · almond milk · yogur griego · banana · frutos rojos · pecan · maple [1.7.8]</span>
+            <span class="dish-desc" data-en>Oat · almond milk · greek yogurt · banana · berries · pecan · maple [1.7.8]</span>
+          </div>
+          <span class="price">7.90</span>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3>Waffle</h3>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Original / Matcha / Chocolate</div>
+            <span class="dish-desc" data-es>Fruta fresca · miel/agave/chocolate/maple [3.7]</span>
+            <span class="dish-desc" data-en>Fresh fruit · honey/agave/chocolate/maple [3.7]</span>
+          </div>
+          <span class="price">11.90</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Chistorra & Egg</div>
+            <span class="dish-desc" data-es>Rice flour waffle · huevo frito · arúgula · chistorra · yogur [3.7.10.11.14]</span>
+            <span class="dish-desc" data-en>Rice flour waffle · fried egg · arugula · chistorra · yogurt [3.7.10.11.14]</span>
+          </div>
+          <span class="price">13.90</span>
+        </div>
+        <div class="menu-row">
+          <div>
+            <div class="dish">Okonomiyaki</div>
+            <span class="dish-desc" data-es>Rice flour waffle · bacon · cheese · salsa okonomiyaki · mayo · sésamo · bonito flakes [1.3.4.6.7.9.10.11]</span>
+            <span class="dish-desc" data-en>Rice flour waffle · bacon · cheese · okonomiyaki sauce · mayo · sesame · bonito flakes [1.3.4.6.7.9.10.11]</span>
+          </div>
+          <span class="price">12.90</span>
+        </div>
+      </div>
+
+      <div class="menu-category">
+        <h3>Extras</h3>
+        <div class="menu-row"><div class="dish">Avocado</div><span class="price">1.00</span></div>
+        <div class="menu-row"><div class="dish">Poached/Fried Egg</div><span class="price">1.00</span></div>
+        <div class="menu-row"><div class="dish">Ham / Turkey Ham</div><span class="price">2.00</span></div>
+        <div class="menu-row"><div class="dish">Bacon / Chistorra</div><span class="price">3.00</span></div>
+        <div class="menu-row"><div class="dish">Smoked Salmon</div><span class="price">4.00</span></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div class="footer-block">
+      <div class="footer-mark">HanSo Café</div>
+      <p class="muted" data-es>Café de especialidad en Madrid desde 2015.</p>
+      <p class="muted" data-en>Specialty coffee in Madrid since 2015.</p>
+    </div>
+    <div class="footer-block">
+      <div class="label">HanSo 1</div>
+      <p>Corredera Baja de<br>San Pablo 51<br>28004 Madrid</p>
+    </div>
+    <div class="footer-block">
+      <div class="label">HanSo 2</div>
+      <p>Costanilla de los<br>Ángeles 7<br>28013 Madrid</p>
+    </div>
+    <div class="footer-block">
+      <div class="label">Contact</div>
+      <a href="mailto:info@hansocafe.es">info@hansocafe.es</a>
+      <a href="https://instagram.com/hansocafe" target="_blank">@hansocafe</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 HanSo Café · Madrid</span>
+    <span>Site concept · Unsolicited · Not affiliated</span>
+  </div>
+</footer>
+
+<script src="js/lang.js"></script>
+</body>
+</html>

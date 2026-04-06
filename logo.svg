@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="58" fill="#0D0D0D" stroke="#F2EDE5" stroke-width="1.5"/>
+  <text x="60" y="66" text-anchor="middle"
+        font-family="'Courier New', 'JetBrains Mono', monospace"
+        font-size="14" font-weight="700" fill="#F2EDE5" letter-spacing="0.5">HaNSo CAFÉ</text>
+</svg>
