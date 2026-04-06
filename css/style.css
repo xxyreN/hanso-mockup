@@ -451,7 +451,8 @@ body { padding-top: 28px; }
 .shop-item .name { font-family: var(--font-display); font-size: 22px; font-weight: 400; margin-bottom: 4px; }
 .shop-item .price { font-family: var(--font-mono); font-size: 13px; color: var(--text); }
 @media (max-width: 768px) {
-  .shop-grid { grid-template-columns: 1fr 1fr; justify-items: center; }
+  .shop-grid { grid-template-columns: 1fr 1fr; justify-items: center; background: var(--bg); gap: 0; }
+  .shop-grid .shop-item { border-bottom: 1px solid var(--border); }
   .shop-grid .shop-item:last-child:nth-child(odd) { grid-column: 1 / -1; max-width: 50%; }
 }
 
